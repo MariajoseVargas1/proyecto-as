@@ -15,9 +15,9 @@ import { SignupComponent } from './components/signup/signup.component';
     HeaderComponent,
     FooterComponent,
     LoginComponent,
-    SignupComponent,
+    SignupComponent
 
-    LoginComponent
+
 
   ],
   imports: [
