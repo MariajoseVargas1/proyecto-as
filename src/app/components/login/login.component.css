@@ -1,30 +1,28 @@
-.outer{
-    height: 100vh;
-    background:linear-gradient(to top,#e6dca3 50%, white 90%) no-repeat;
-}
+
 .container{
-    margin-right: 150px;
+    margin-right: 550px;
 }
 .panel-heading{
     text-align: center;
     margin-bottom:10px ;
 }
 .arreglo{
-    border-radius: 5px;
+    
     padding:5px;
     width: 500px;
     display: flex;
     align-items: center;
     cursor: pointer;
     border: 1px solid white;
-    color: black;
+    
 }
 
 #forget {
     min-width:100px;
     margin-left:auto ;
     text-decoration: none;
-    cursor:pointer ;    
+    cursor:pointer;    
+   
 }
 
 a:hover{
@@ -37,29 +35,30 @@ a:hover{
    
 }
 .btn{
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 15px;
+    
 
 }
 
 .panel{
     min-height: 380px;
-    box-shadow: 20px 20px 80px rgb(218, 218, 218);
+    box-shadow: 10px 0 5px -2px #faf5f5;
     border-radius: 12px;
     margin-top: 100px;
 }
-.input-field{
-    border-radius: 5px;
-    padding:5px;
+.form-floating{
+    border-radius: 20px;
+    padding:7px;
     display: flex;
     align-items: center;
     cursor: pointer;
-    border: 1px solid #ddd;
-    color: #4343ff;
+   
     
-
 }
-.input-field.error{
+
+
+.form-floating.error{
      border: 1px solid red;
      color: red;
     
