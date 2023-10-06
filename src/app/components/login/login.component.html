@@ -9,32 +9,24 @@
                     </div>
                     <div class="panel-body p-3">
                         <form >
-                            <div class="form-group pt-3 ">
-                                <div class="input-field" >
-                                    <span class="fa fa-user p-2"></span>
-                                    <input type="text"  class="arreglo" placeholder="Username">
-                                </div> 
-                            </div>
-                            <div class="form-group pt-3  ">
-                                <div class="input-field ">
-                                    <span class="fa fa-lock p-2"></span>
-                                    <input [type]="type" class="arreglo" placeholder="Password">
-                                    <span (click)="hideShowPass()" class="fa {{eyeIcon}}"></span>
-                                </div> 
-                            </div>
-                            <div class="form-inline fr mt-4">
-                                <a href="forget" class="font-weight-bold">Forget Password?</a>
-                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Ingrese su número de documento">
+                                <label for="floatingInput">Número de documento</label>
+                                <span class="fa fa-lock p-2"></span>
+                              </div>
+                              <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Ingrese su contraseña">
+                                <label for="floatingInput">Contraseña</label>
+                                <span class="fa fa-lock p-2"></span>
+                                <span (click)="hideShowPass()" class="fa {{eyeIcon}}"></span>
+                              </div>
+                        
                             <button type="submit" class="btn btn-primary btn-block mt-4 w-100">Inicio</button>
-                            <div class="text-center pt-4 text-muted">Don't have account?<a id="forget" routerLink="/signup">Sing Up</a></div>
+
+                            <div class="form-inline fr mt-4">
+                                <a href="forget" class="font-weight-bold">¿Olvidó su contraseña?</a>
+                            </div>
                         </form>
-                    </div>
-                    <div class="mx-3 my-2 py-2 bordert">
-                        <div class="text-center py-3">
-                            <a href="https:/wwww.facebook.com"target="_blank" class="px-2"> <img src="https:/www.dpreview.com/files/p/articles/4698742202/facebook.jpeg" alt=""></a>
-                            <a href="https:/www.google.com" target="_blank" class="px-2"><img src="https:/www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" alt=""></a>
-                            <a href="https:/www.github.com" target="_blank" class="px-2"><img src="https:/www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-github-icon-35.png" alt=""></a>
-                        </div>
                     </div>
                 </div>
             </div>

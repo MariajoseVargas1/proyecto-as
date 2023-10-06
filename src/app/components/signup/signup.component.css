@@ -1,7 +1,4 @@
-.outer{
-    height: 100vh;
-    background:linear-gradient(to top,#e6dca3 50%,white 90%) no-repeat;
-}
+
 .container{
     margin-right: 150px;
 }
@@ -55,7 +52,7 @@ a:hover{
     align-items: center;
     cursor: pointer;
     border: 1px solid #ddd;
-    color: #4343ff;
+    
     
 
 }
