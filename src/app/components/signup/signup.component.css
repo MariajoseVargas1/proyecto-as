@@ -59,70 +59,69 @@ a:hover {
   border: 1px solid red;
   color: red;
 
-.input[type='text'],
-.input[type='password']{
-    border:none;
-    outline:none;
-    box-shadow:none;
+  .input[type="text"],
+  .input[type="password"] {
+    border: none;
+    outline: none;
+    box-shadow: none;
     width: 100%;
-    }
+  }
 
-.fa-eye-slash.btn{
-     border: none;
-     outline:none;
-     box-shadow:none;
+  .fa-eye-slash.btn {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
 
+  input[type="text"],
+  input[type="password"] {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+  }
 
-}
+  .fa-eye-slash.btn {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+  img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+  }
+  .bordert {
+    border-top: 1px solid #aaa;
+    position: relative;
+  }
 
-input[type="text"],
-input[type="password"] {
-  border: none;
-  outline: none;
-  box-shadow: none;
-  width: 100%;
-}
+  .bordert:after {
+    content: "on connect with";
+    position: absolute;
+    top: -13px;
+    left: 33%;
+    background-color: aliceblue;
+    padding: 0 8px;
+  }
 
-.fa-eye-slash.btn {
-  border: none;
-  outline: none;
-  box-shadow: none;
-}
-img {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-  border-radius: 50%;
-  position: relative;
-}
-.bordert {
-  border-top: 1px solid #aaa;
-  position: relative;
-}
+  select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
 
-.bordert:after {
-  content: "on connect with";
-  position: absolute;
-  top: -13px;
-  left: 33%;
-  background-color: aliceblue;
-  padding: 0 8px;
-}
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
 
-select {
-  padding: 5px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 200px;
-}
-
-label {
-  font-weight: bold;
-  margin-right: 10px;
-}
-
-select:focus {
-  border-color: #007bff;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
 }
