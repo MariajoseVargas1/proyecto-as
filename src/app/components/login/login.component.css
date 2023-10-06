@@ -65,8 +65,8 @@ a:hover{
     
 }
 
-input[type='text'],
-input[type='password'],{
+.input[type='text'],
+.input[type='password']{
     border:none;
     outline:none;
     box-shadow:none;
