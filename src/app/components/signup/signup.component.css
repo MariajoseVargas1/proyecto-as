@@ -16,7 +16,7 @@
     cursor: pointer;
     border: 1px solid white;
     color: black;
-
+}
 .outer {
   height: 100vh;
   background: linear-gradient(to top, #e6dca3 50%, white 90%) no-repeat;
@@ -75,7 +75,7 @@ a:hover {
     cursor: pointer;
     border: 1px solid #ddd;
     
-    
+}
 
 .panel {
   min-height: 380px;
